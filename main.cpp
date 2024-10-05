@@ -1,10 +1,13 @@
 #include <SFML/Graphics.hpp>
+#include "TileMap.h"
 
 using namespace sf;
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(1024, 1024), "Tilemap!");
+
+    TileMap map;
 
     while (window.isOpen())
     {
@@ -21,6 +24,8 @@ int main()
         }
 
         window.clear();
+
+        map.render(window); //This is explained)
 
         window.display();
     }

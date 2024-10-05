@@ -11,8 +11,25 @@
 
 class Tile
 {
+protected:
+	sf::RectangleShape shape;
+	//all tiles are in a rectangle shape
+
+public:
+	Tile();
+	Tile(float, float, float);
+	~Tile();
+
+	//Functions
+	void update();
+	void render(sf::RenderTarget&);
+
+
 
 };
+
+
+
 
 #endif TILE_H
 
