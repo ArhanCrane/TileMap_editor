@@ -1,6 +1,6 @@
 # TileMap_editor
 
-# <p align="center"><img src="screen_of_the_app.png"></p>
+<!- <p align="center"><img src="screen_of_the_app.png"></p> -->
 
 tile_map editor
 The point of this app is to make maps for 2D games.
