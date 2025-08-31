@@ -10,11 +10,11 @@ Features:
 - Moveable Grid
 	By pressing WASD keys you can move the grid
 
-- Loading textures to the pallete
+- Loading textures to the pallete <br>
 	Via <windows.h> it's possible to open the file explorer and choose the texture
 	<p align="center"><img src="DialogBoxPng.png"></p>
 
-- Cells having a texture
+- Cells having a texture <br>
 	<p align="center"><img src="TexturedTiles.png"></p>
   
 - A list of all uploaded textures and an ability of choosing and changing tiles
